@@ -177,6 +177,7 @@ public class PantallaEC extends javax.swing.JFrame implements Runnable{
         //notify();
         enviarMensaje(1,null);
         procesoHilo.setEstado(2);
+        txtMensajesA.append("Empieza eleccion de coordinador\n");
     }//GEN-LAST:event_btnPeticionActionPerformed
 
     /**
